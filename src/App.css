@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 60%;
+  height: 80%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+main,
+h1 {
+  padding: 10px 0 10px 10px;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form,
+section {
+  width: 40%;
+  height: 80%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+section {
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+p {
+  width: 50%;
+  height: 10%;
+  background-color: darkblue;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 5px;
+  margin: 15px 0;
+}
+
+p:first-of-type {
+  margin-top: 45px;
+}
+
+form input[type='text'],
+input[type='email'] {
+  width: 50%;
+  height: 10%;
+  border: none;
+  outline: none;
+  background-color: darkblue;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+form input::placeholder {
+  color: whitesmoke;
+}
+
+button {
+  width: 50%;
+  height: 15%;
+  background-color: darkred;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
